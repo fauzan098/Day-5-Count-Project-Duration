@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <nav>
+        <div class="left-side">
+            <a href="index.html">
+                <img src="assets/img/icon.png" alt="Dumbways">
+            </a>
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">MyProject</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <a href="#">Contact Me</a>
+        </div>
+    </nav>
+    <div style="
+        width: 400px;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 100px;
+    ">
+        <form action="">
+            <div style="
+                text-align: center;
+                margin-bottom: 50px;
+            "
+            ><h2>GET IN TOUCH</h2></div>
+            <div>
+                <label for="name" style="font-size: 20px; font-weight: 700;">Name</label>
+                <input type="text" id="name" placeholder="Input your Name" style="
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 8px;
+                    background-color: #f3f3f3;
+                    border: 1px solid #c4c4c4;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                ">
+            </div>
+            <div>
+                <label for="email" style="font-size: 20px; font-weight: 700;">Email</label>
+                <input type="email" id="email"style="
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 8px;
+                    background-color: #f3f3f3;
+                    border: 1px solid #c4c4c4;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                ">
+            </div>
+            <div>
+                <label for="phone" style="font-size: 20px; font-weight: 700;">Phone Number</label>
+                <input type="phone" id="phone" style="
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 8px;
+                    background-color: #f3f3f3;
+                    border: 1px solid #c4c4c4;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                ">
+            </div>
+            <div>
+                <label for="subject" style="font-size: 20px; font-weight: 700;">Subject</label>
+                <select id="subject" style="
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px;
+                background-color: #f3f3f3;
+                border: 1px solid #c4c4c4;
+                border-radius: 8px;
+                margin-top: 5px;
+                margin-bottom: 20px;
+            ">
+                    <option>Lets Talk</option>
+                    <option>Lets Collaboration</option>
+                    <option>Lets Create Project</option>
+                </select>
+            </div>
+            <div>
+                <label for="message" style="font-size: 20px; font-weight: 700;">Your message</label>
+                <textarea id="message" cols="30" rows="10" style="
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 8px;
+                    background-color: #f3f3f3;
+                    border: 1px solid #c4c4c4;
+                    border-radius: 8px;
+                    margin-top: 5px;
+                    resize: none;
+                    height: 100px;
+                "></textarea>
+            </div>
+            <button type="submit" onclick="{getData()}" style="
+                color: #f3f3f3;
+                background-color: #1b1919;
+                margin-top: 20px;
+                margin-bottom: 50px;
+                border: none;
+                padding: 10px 30px;
+                border-radius: 10px;
+                cursor: pointer;
+                float: right;
+            ">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="assets/js/index.js"></script>
+</html>

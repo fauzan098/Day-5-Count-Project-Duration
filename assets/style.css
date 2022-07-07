@@ -4,6 +4,55 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+nav{
+    background-color: #f4f3f3;
+    height: 7vh;
+    display: flex ;
+}
+nav div{
+    display: flex;
+    align-items: center;
+}
+nav .left-side{
+    flex: 50%;
+    padding-left: 90px;
+}
+nav .left-side img{
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+}
+nav .right-side{
+    flex: 50%;
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+nav ul{
+    list-style: none;
+    margin-left: 40px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 40px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+nav ul li a.active {
+    color: #282424;
+    font-weight: 700;
+}
+nav .right-side a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    background-color: #070707;
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .box1{
     border: 0px solid #fff;
     border-radius: 10px;
@@ -17,13 +66,18 @@ body{
     margin-bottom: 100px;
     position: relative;
     text-align: justify;
+    display: flex;
 }
 .box1 h1{
-    padding: 75px 300px 0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding: auto;
+    margin-bottom: 0px;
     font-size: 32px;
 }
 .box1 .p1{
-    padding: 10px 300px;
+    padding: 10px;
+    margin-bottom: 0px;
     font-size: 16px;
 }
 .box1 .download h3 i{
@@ -63,6 +117,8 @@ body{
     padding-right: 20px;
     text-decoration: none;
     padding-bottom: 10px;
+    color: #070707;
+    font-weight: 300;
     
 }
 .box1 .container{
@@ -96,11 +152,8 @@ body{
 .box1 .profile{
     width: 360px;
     margin: auto;
-    /* margin-top: 10px; */
-    /* margin-bottom: 10px; */
     position: relative;
     text-align: center;
-    border: 1px solid rgb(73, 72, 72);
     background-color: rgb(218, 210, 210);
     border-radius: 10px;
 }
