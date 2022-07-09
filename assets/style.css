@@ -158,9 +158,10 @@ nav .right-side a{
     border-radius: 10px;
 }
 .box1 .profile img{
+    width: 97%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding-top: 0%;
+    padding-top: 1%;
     /* box-shadow: 0px 0px 10px rgb(79, 79, 79) ; */
 }
 .box1 .profile h2{
@@ -170,3 +171,176 @@ nav .right-side a{
     margin-top: 0;
     margin-bottom: 10px;
 }
+
+/* project css */
+/* .project{
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+} */
+.project-content{
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+}
+.header-project{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.project-content{
+    display: block;
+}
+.form-project{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.form-control label{
+    font-size: 20px;
+    font-weight: 650;
+    /* margin-left: ; */
+}
+.form-control input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    /* margin-right: ; */
+}
+.form-control-date{
+    display: flex;
+    margin-bottom: 10px;
+}
+.form-control-date label{
+    font-size: 20px;
+    font-weight: 650;
+}
+.form-control-date input{
+    width: 90%;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+.form-control textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+    resize: none;
+    height: 100px; 
+}
+.form-control-c1{
+    display: flex;
+    padding: 8px;
+    align-items: stretch;
+}
+.form-control-c1 .checkbox{
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.form-control-c1 .checkbox input{
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+}
+/* form-label element on c1 style  */
+.form-control-c1 .checkbox label{
+    font-size: 20px;
+    font-weight: 700;
+}
+/*  */
+.form-control-c1 .right{
+    margin-right: 20px;
+}
+.form-control .label-img{
+    width: 100%;
+    height: 5vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.form-control .label-img p{
+    height: 5vh;
+    margin-top: 5px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+/* form-label element on c1 style  */
+button{
+    float: right;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: #f3f3f3;
+    background-color: #1b1919;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+.blog-list-item{
+    margin-top: 100px;
+}
+.project hr{
+    border: 1px solid #dbdbdb;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.project-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 2rem auto;
+}
+.project-list .project-list-item{
+    width: 27%;
+    margin-bottom: 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 8px;
+    background-color: hsla(194, 16%, 43%, 0.757);
+    padding: 8px;
+    margin-right: 10px;
+}
+.project-list .project-list-item img{
+    width: 100%;
+    height: 50%;
+    border-radius: 2% 2% 0 0;
+}
+.project-list .project-list-item .image-skills{
+    width: 10%;
+    display: flex;
+}
+.project-list .project-list-item .image-skills i{
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+}
+.project-list .project-list-item .button-project{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 10px;
+    align-content: center;
+}
+
+

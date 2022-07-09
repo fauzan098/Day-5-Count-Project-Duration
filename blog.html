@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+    <title>project</title>
+</head>
+<body>
+    <nav>
+        <div class="left-side">
+            <a href="index.html">
+                <img src="assets/img/icon.png" alt="Dumbways">
+            </a>
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">MyProject</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <a href="#">Contact Me</a>
+        </div>
+    </nav>
+    <div class="project">
+        <div class="project-content">
+            <div class="header-project">
+                <h2>ADD MY PROJECT</h2>
+            </div>
+            <div class="form-project">
+                <form onsubmit="addproject(event)">
+                    <div class="form-control">
+                        <label for="project-name">Project Name</label>
+                        <input type="text" id="project-name">
+                    </div>
+                    <div class="form-control-date" >
+                        <div>
+                            <label for="star-date">Start date</label>
+                            <input type="date" id="startDate">
+                        </div>
+                        <div>
+                            <label for="end-date">End date</label>
+                            <input type="date" id="endDate">
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="description">Description</label>
+                        <textarea name="" id="description" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-control">
+                        <label>Technologies</label>
+                    </div>
+                    <div class="form-control-c1">
+                        <div class="left">
+                            <div class="checkbox" style="width:100px ;">
+                                <input type="checkbox" id="node" value="node">
+                                <label for="node">Node js</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="php" value="php">
+                                <label for="php">php</label>
+                            </div> 
+                        </div> 
+                        <div class="rigt">
+                            <div class="checkbox" style="width:100px ;">
+                                <input type="checkbox" id="react" value="react">
+                                <label for="react">React</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="laravel" value="laravel">
+                                <label for="laravel">Laravel</label>
+                            </div> 
+                        </div>           
+                    </div>
+                    <div class="form-control">
+                        <label class="label-img">
+                            <p>Clik to upload a image here !</p>
+                            <input type="file" id="projectimage" hidden>
+                        </label>
+                    </div>
+                    <button  class="button-input-project" type="submit" >Post</button>
+                </form>
+            </div>
+        </div>
+        <div id="test">
+        </div>
+        <br>
+        <hr class="line" />
+
+        <!-- list project -->
+        <div id="projectlist" class="project-list">
+            <!-- <div class="project-list-item">
+                <a href="index.html">
+                    <img src="/assets/img/komputer.jpg" alt="">
+                </a>
+                <h2>dumbways mobile app 2021</h2>
+                <span>durasi : 3 bulan</span>
+                <div class="content-project">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae sequi ipsam enim.</p>    
+                </div>
+                <div class="image-skills">
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-node"></i>
+                    <i class="fa-brands fa-php"></i>
+                    <i class="fa-brands fa-laravel"></i>
+                </div>
+                <div class="button-project">
+                    <button style="width: 50%;">Edit</button>
+                    <button style="width: 50%;">Delete</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+</body>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/project.js"></script>
+</html>
