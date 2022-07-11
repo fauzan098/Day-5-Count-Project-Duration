@@ -343,4 +343,63 @@ button{
     align-content: center;
 }
 
+/* css project detail */
+.blog-detail{
+    /* background-color: #c4c4c4; */
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    padding: 10px;
+}
+.blog-detail h3{
+    margin-bottom: 0;
+}
+.detail{
+    display: flex;
+}
+.detail .image{
+    width: 80%;
+    height: 60vh;
+    padding: 10px;
+}
+.detail .image img{
+    width: 100%;
+    height: 100%;
+}
+.blog-detail h2{
+    text-align: center;
+    padding: 10px;
+}
+.blog-detail .detail .content-right{
+    margin-top: 70px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.blog-detail .detail .content-right .duration{
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.blog-detail .detail .content-right .duration .duration-main{
+    padding: 5px;
+}
+.blog-detail .detail .content-right .technologies{
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.blog-detail .detail .content-right .technologies .technologi{
+    display: flex;
+}
+.blog-detail .detail .content-right .technologies .technologi .technologi1{
+    padding: 10px;
+}
+.content-detail{
+    text-align: justify;
+}
 
