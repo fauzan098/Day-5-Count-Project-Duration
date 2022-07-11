@@ -52,7 +52,7 @@ function renderProjects(){
         const techs = projects[i].technologies;
         containerProjects.innerHTML +=`
         <div class="project-list-item">
-        <a href="index.html">
+        <a href="blog-detail.html">
             <img src="${projects[i].image}" alt="">
         </a>
         <h2>${projects[i].projectName}</h2>
